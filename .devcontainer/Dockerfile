@@ -18,7 +18,7 @@ RUN bash /tmp/library-scripts/node-debian.sh "${NVM_DIR}" "${NODE_VERSION}" "${U
     && apt-get clean -y && rm -rf /var/lib/apt/lists/*
 
 EXPOSE 80
-EXPOSE 8000
+EXPOSE 443
 
 # [Optional] Uncomment this section to install additional OS packages.
 # RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
